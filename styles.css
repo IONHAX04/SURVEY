@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Comic Sans MS';
+}
+
+body{
+	background: url('bg.jpg');
+	background-size: cover;
+}
+
+.heading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-shadow: 0 0 9px #ff8000, 0 0 9px #9b4e00;
+	font-size: 21px;
+	margin-top: 5%;
+}
+.info table{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+form h3{
+	color: #fff;
+	text-shadow: 0 0 9px #ff8000, 0 0 9px #9b4e00;
+	font-size: 20px;
+}
+form{
+	margin-left: 26%;
+	margin-right: 26%;
+	margin-bottom: 5%;
+	padding: 3%;
+	font-size: 16px;
+	border-radius: 20px;
+	border: 2px solid black;
+	background: #fff;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+
+@media (max-width: 576px){
+	.info form{
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+	form{
+		font-size: 13px;
+	}
+}
+/*.start_btn{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5),
+				0px 6px 20px 0 rgba(0, 0, 0, 0.5);
+	transition: all 0.3s ease;
+}
+.start_btn td button{
+	font-size: 25px;
+	font-weight: 500;
+	color: blue;
+	outline: none;
+	border-radius: 2px solid black;
+	border-radius: 10px;
+	background: #fff;
+	cursor: pointer;
+}*/
+
+@media (max-width: 767px){
+	.info form{
+		margin-left: 30%;
+		margin-right: 30%;
+		font-size: 14px;
+	}
+}
+@media (max-width: 1000px){
+	.info form{
+		margin-left: 10%;
+		margin-right: 10%;
+		font-size: 15px;
+	}
+
+}
